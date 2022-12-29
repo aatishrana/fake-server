@@ -1,5 +1,8 @@
 {
   "User": {
     "title": { "string": {} }
+  },
+  "v1/service-requests/request-pool": {
+    "data": { "string" : {} }
   }
 }

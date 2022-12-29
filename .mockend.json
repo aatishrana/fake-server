@@ -1,8 +1,16 @@
 {
-  "User": {
-    "title": { "string": {} }
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
   },
-  "v1/service-requests/request-pool": {
-    "data": { "string" : {} }
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  },
+  "service-request": {
   }
 }
